@@ -48,7 +48,7 @@ body{
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
- outline: 2px solid tomato;
+ /* outline: 2px solid tomato; */
 
 }
 
@@ -653,6 +653,9 @@ background-color: var(--accent-color)
 
  }      
 
+ .filter-items:hover{
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ }
 
  .filter-items + .filter-items{
    margin-left: 8px;
@@ -678,6 +681,7 @@ border-radius: 4px;;
 
 padding: 6px 22px;
 
+text-align: center;
  }
 
 
@@ -721,6 +725,13 @@ padding: 6px 22px;
    margin-bottom: 30px;
 
    
+ }
+
+ .work-items:hover{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+0px 4px 4px rgba(0, 0, 0, 0.06), 
+1px 4px 6px 
+rgba(0, 0, 0, 0.16);
  }
 
  .work-items:nth-child(3n)
