@@ -104,6 +104,12 @@ text-decoration:none ;
   
 }
 
+.link:hover,
+.link:focus{
+  color: var(--accent-color);
+}
+
+
 
 .auth{
   display: flex;
@@ -572,6 +578,8 @@ letter-spacing: 0.03em;
      
   }
 
+  /* -----------Join-footer--------- */
+
 .join-container{
   margin-right: 70px;
 }
@@ -627,7 +635,7 @@ font-weight: 700;
 }
 
 .join-link:hover,
-.join-link:hover {
+.join-link:focus {
 
 fill: var(--white-color);
 background-color: var(--accent-color)
